@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/common/Navbar";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body
         className={montserrat.className}
       >
+        <Navbar />
         {children}
         <div className="fixed bottom-5 right-5 z-50">
           <Link

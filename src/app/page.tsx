@@ -1,13 +1,18 @@
 
 
+
+// import Carousel from "./components/ui/Carousel";
+
+
+
+
+
 export default function Home() {
     return(
         <main>
             <div className="min-h-screen bg-white">
                 <div className="flex items-center justify-center">
-                    <h2 className="text-xl font-semibold text-gray-900">
-                        Landing Page
-                    </h2>
+                    {/* <Carousel slides= {} /> */}
                 </div>
             </div>
         </main>
