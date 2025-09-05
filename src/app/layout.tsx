@@ -2,8 +2,8 @@ import "./globals.css";
 import { ReactNode } from "react";
 
 export const metadata = {
-  title: "Akeenah Group",
-  description: "Procurement & Supply for multiple industries",
+  title: "Akeenah Group | Home",
+  description: "Africa's Leading Industrial Procurement and Supply Company",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
